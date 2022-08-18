@@ -7,6 +7,7 @@ namespace Sortitems
     {
         [SerializeField] private GetterParameters[] _getters;
 
+        
         public UnityEvent onFull;
         
         private void Start() 
@@ -32,6 +33,8 @@ namespace Sortitems
                 getter.getter.onCountChanged.RemoveListener(onCountChanged);
             }
         }
+
+        
         private void onCountChanged(Getter getter)
         {
             for (int idx = 0; idx < _getters.Length; idx++)
@@ -56,10 +59,13 @@ namespace Sortitems
                 }
             }
             
+            
             if (full)
             {
                 Debug.Log("You Win!");
                 onFull.Invoke();
+                
+                
             }
         }
     }

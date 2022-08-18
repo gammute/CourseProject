@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 namespace Sortitems
@@ -6,12 +7,11 @@ namespace Sortitems
     public class DragItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
         [SerializeField] private float upForce = 50f;
-
-        private Rigidbody _rigidbody;
-
-        public bool isDraggble {get; private set;}
-
         [SerializeField] private ItemType _type;
+
+        public UnityEvent OnHideReqest;
+        private Rigidbody _rigidbody;
+        public bool isDraggble {get; private set;}
         public ItemType Type { get => _type; }
 
         private void Start()
