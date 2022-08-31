@@ -108,6 +108,10 @@ PrefabInstance:
       propertyPath: _type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2462213078517473142, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 1876843068375616435}
     - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_Name
       value: Sphere Variant
@@ -160,6 +164,10 @@ PrefabInstance:
       propertyPath: m_Parameters.widthMultiplier
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 8279087814805667729, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 1876843068375616435}
     - target: {fileID: 8603372535053765770, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_RootOrder
       value: 1

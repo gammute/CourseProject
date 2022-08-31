@@ -109,6 +109,10 @@ PrefabInstance:
       propertyPath: _type
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -2462213078517473142, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 2674334593996310784}
     - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_Name
       value: Capsule Variant
@@ -173,6 +177,10 @@ PrefabInstance:
       propertyPath: m_Parameters.widthMultiplier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8279087814805667729, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 2674334593996310784}
     - target: {fileID: 8603372535053765770, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_RootOrder
       value: 1

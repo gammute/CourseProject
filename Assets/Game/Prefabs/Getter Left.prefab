@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2102294744431011322}
   - component: {fileID: 2102294744431011323}
   - component: {fileID: 2102294744431011321}
+  - component: {fileID: 7545092724335287872}
   m_Layer: 8
   m_Name: Getter Left
   m_TagString: Level1
@@ -113,4 +114,30 @@ MonoBehaviour:
   type: 0
   onCountChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7545092724335287872}
+        m_TargetAssemblyTypeName: Sortitems.AnimateVolumeWeight, Assembly-CSharp
+        m_MethodName: Animate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7545092724335287872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102294743527943905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cfae1c390ca6f4abf88d2e2ee92d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _volume: {fileID: 4777999172819876011, guid: c625b9ce3a284984282222d8ec444907, type: 3}
+  _animationTime: 0.3

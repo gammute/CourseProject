@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Sortitems
 {
@@ -6,13 +7,17 @@ namespace Sortitems
     {
     [SerializeField] private VFXPoolProvider _vfxPoolProvider;
 
+    public UnityEvent OnClick;
+
      public void Hide()
      {
         VFXPoolItem poolItem = _vfxPoolProvider.VFXPool.GetFromPool();
         poolItem.transform.position = transform.position;
         poolItem.ParticleSystem.Play();
 
-        Destroy(this.gameObject);
+        OnClick.Invoke();
+
+        //Destroy(this.gameObject);
      }
     }
 }
