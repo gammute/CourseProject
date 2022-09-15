@@ -7,5 +7,7 @@ namespace Sortitems
         Red,
 
         Pink,
+
+        Yellow,
     }
 }

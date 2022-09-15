@@ -7,7 +7,7 @@ namespace Sortitems
     {
         public UnityEvent SceneActive;
 
-        public void Awake()
+        public void OnEnable()
         {
             SceneActive.Invoke();
         }

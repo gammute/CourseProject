@@ -36,6 +36,7 @@ namespace Sortitems
                 _volume.weight = Mathf.Sin(Mathf.PI * _elapsedTime / _animationTime);
 
                 _elapsedTime += Time.deltaTime;
+
             }
 
             _isAnimate = false;

@@ -8,15 +8,15 @@ namespace Sortitems
         
         [SerializeField] private GameObject _prefab;
 
-        public void go1() 
+        public void SpawnLevel() 
         {
             Instantiate (_prefab, _prefab.transform.position, Quaternion.identity);
             
         }
 
-        public void destroy()
+        public void DestroyLevel()
         {
-            Destroy (GameObject.FindGameObjectWithTag("Level1"));
+            Destroy (this.gameObject);
             
         }
     }

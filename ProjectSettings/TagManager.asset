@@ -7,6 +7,7 @@ TagManager:
   - Level1
   - Level2
   - PlayerEyes
+  - Level3
   layers:
   - Default
   - TransparentFX
