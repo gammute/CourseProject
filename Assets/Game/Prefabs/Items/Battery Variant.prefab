@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7913945045336264485}
   m_Layer: 0
   m_Name: Battery
-  m_TagString: Untagged
+  m_TagString: ojb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,9 +115,17 @@ PrefabInstance:
       propertyPath: _meshRenderer
       value: 
       objectReference: {fileID: 2489430559374096902}
+    - target: {fileID: 532150042984530376, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_Name
       value: Battery Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: m_TagString
+      value: ojb
       objectReference: {fileID: 0}
     - target: {fileID: 532150042984530388, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_RootOrder

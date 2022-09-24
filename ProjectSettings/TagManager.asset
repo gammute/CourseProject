@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - ojb
+  - Level
   - Level1
   - Level2
-  - PlayerEyes
   - Level3
   layers:
   - Default

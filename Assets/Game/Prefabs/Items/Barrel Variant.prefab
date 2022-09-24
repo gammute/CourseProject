@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4035372514283305891}
   m_Layer: 0
   m_Name: barrel
-  m_TagString: Untagged
+  m_TagString: ojb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,9 +121,17 @@ PrefabInstance:
       propertyPath: _meshRenderer
       value: 
       objectReference: {fileID: 3003809237315324896}
+    - target: {fileID: 532150042984530376, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_Name
       value: Barrel Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 532150042984530383, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
+      propertyPath: m_TagString
+      value: ojb
       objectReference: {fileID: 0}
     - target: {fileID: 532150042984530388, guid: f975aa8ad0ff026468b97544fb1fe6af, type: 3}
       propertyPath: m_RootOrder

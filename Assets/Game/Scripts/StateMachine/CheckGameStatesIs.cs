@@ -8,7 +8,8 @@ namespace Sortitems
         [SerializeField] private GameStateMachine _gameStateMachine;
         [SerializeField] private GameState _gameState;
        
-        public UnityEvent ChangeState; 
+        public UnityEvent ChangeState;
+        public UnityEvent NotMyState;
 
         public GameStateMachine GameStateMachine => _gameStateMachine;
 
@@ -17,6 +18,11 @@ namespace Sortitems
             if (GameStateMachine.GameState == _gameState)
             {
                 ChangeState.Invoke();
+            }
+
+            if (GameStateMachine.GameState != _gameState)
+            {
+                NotMyState.Invoke();
             }
         }
     }

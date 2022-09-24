@@ -56,6 +56,9 @@ namespace Sortitems
             
             if (item.isDraggble == false && _item == item)
             {
+                if(active)
+                    return;
+
                 TryGetItem();
                 _item = null;
                 _material.color = _defaultColor;
@@ -86,7 +89,6 @@ namespace Sortitems
         {
             if (_item.Type == type)
             {
-                //Destroy(_item.gameObject);
                 count++;
 
                 onCountChanged.Invoke(this);

@@ -16,8 +16,6 @@ namespace Sortitems
         poolItem.ParticleSystem.Play();
 
         OnClick.Invoke();
-
-        //Destroy(this.gameObject);
      }
     }
 }

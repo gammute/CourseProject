@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889942d9b5828764d878dfb13435acb6, type: 3}
   m_Name: GameStateMachine
   m_EditorClassIdentifier: 
-  _gameState: 2
+  _gameState: 4
   OnChangeState:
     m_PersistentCalls:
       m_Calls: []
